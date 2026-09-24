@@ -5,10 +5,14 @@ body {
     font-family: "Montserrat", sans-serif;
     background-image: linear-gradient(to right, rgb(52, 194, 146), rgb(219, 36, 36));
     display: flex;
+    margin: 0;
     flex-direction: column;
-    margin: 5;
+    min-height: 100vh;
 }
 
+main {
+    flex: 1;
+}
 header {
     padding: 20px;
     border-style: solid;
@@ -41,11 +45,11 @@ header a:hover {
 form {
     color: white;
     font-weight: bold;
-    padding: 40px;
+    padding: 20px;
     display: flex;
     background-color: rgba(27, 17, 17, 0.24);
-    filter: blur();
     border-radius: 10px;
+    margin-top: 20px;
 }
 
 
@@ -54,10 +58,10 @@ form {
     background-color: rgba(27, 17, 17, 0.24);
     border-style: solid;
     border-radius: 30px;
-    padding: 20px;
+    padding: 10px;
     color:white;
-    border-color: white;
-    margin-left: 30px;
+    border-color: rgba(27, 17, 17, 0.24);
+    margin-left: 20px;
     transition: 0.4s;
     font-size: 1.5em;
     font-family: "Montserrat", sans-serif;
@@ -71,7 +75,7 @@ form {
     border-radius: 30px;
     padding: 20px;
     color:white;
-    border-color: white;
+    border-color: rgba(27, 17, 17, 0.24);
     margin-left: 30px;
     transition: 0.4s;
     font-size: 1.15em;
@@ -98,6 +102,18 @@ form h3 {
     color:white;
     padding: 30px;
     transition: 0.5s;
-
+    border-radius: 20px;
+    margin-top: 40px;
 }
 
+
+
+footer {
+    text-align: center;
+    margin-top: auto;
+    border-style: solid;
+    padding: 100px;
+    background-color: rgba(27, 17, 17, 0.24);
+    border-radius: 20px;
+    border-color: rgba(27, 17, 17, 0.24);;
+}
