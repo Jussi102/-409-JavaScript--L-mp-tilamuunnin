@@ -14,6 +14,8 @@ header {
     border-style: solid;
     color:white;
     border-radius: 30px;
+    background-image: linear-gradient(to right, rgb(36, 131, 99), rgb(121, 18, 18));
+    filter: blur();
 }
 
 header a {
@@ -39,32 +41,63 @@ header a:hover {
 form {
     color: white;
     font-weight: bold;
-    padding: 20px;
+    padding: 40px;
     display: flex;
+    background-color: rgba(27, 17, 17, 0.24);
+    filter: blur();
+    border-radius: 10px;
 }
 
-.form  {
-    color:red;
-}
 
-form input{
-    background-color: transparent;
+
+#fname {
+    background-color: rgba(27, 17, 17, 0.24);
     border-style: solid;
     border-radius: 30px;
-    padding: 15px;
+    padding: 20px;
     color:white;
     border-color: white;
     margin-left: 30px;
     transition: 0.4s;
+    font-size: 1.5em;
+    font-family: "Montserrat", sans-serif;
+
 }
 
-
-form input:hover {
-    cursor: grab;
+.muunna {
+    font-family: "Montserrat", sans-serif;
+    background-color: rgba(27, 17, 17, 0.24);
+    border-style: solid;
+    border-radius: 30px;
+    padding: 20px;
+    color:white;
+    border-color: white;
+    margin-left: 30px;
     transition: 0.4s;
+    font-size: 1.15em;
+    font-weight: bold;
+    cursor: grab;
 }
+
+
+
+.muunna:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+
 
 form h3 {
     color:white;
+}
+
+#vastaus {
+    background-color: rgba(27, 17, 17, 0.24);
+    font-size: 1.3em;
+    color:white;
+    padding: 30px;
+    transition: 0.5s;
+
 }
 
