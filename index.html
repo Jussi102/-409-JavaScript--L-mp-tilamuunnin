@@ -13,16 +13,37 @@
         </nav>
     </header>
     
-    <div class="container">
+    <div>
     </div>
 
+        <label id="muutosLabel" for="muutos">Valitse muunnos:</label>
+        <select id="muutos">
+            <option value="c-f">Celsius → Fahrenheit</option>
+            <option value="f-c">Fahrenheit → Celsius</option>
+        </select>
+
     <form class="lampotila-form">
+
+
+
         <h3>Syötä lämpötila: </h3>
         <input type="text" id="fname" name="fname" value=""><br>
-        <input type="submit" class="muunna" value="Muunna">
+        <input type="submit" class="muunna" value="Muunna"><br>
     </form>
 
-    <h2 id="vastaus"></h2>
+    
+    <form class="vaihtoehdot">
+        <input type="radio" name="desimaalit" value="1">
+        <label for="yksi">1 desimaali</label><br>
+        <input type="radio" name="desimaalit" value="2">
+        <label for="kaksi">2 desimaali</label><br>
+        <input type="radio" name="desimaalit" value="3">
+        <label for="kolme">3 desimaali</label>
+    </form>
+
+    <h2 id="vastaus"> </h2>
+
+    <h3 id="testi"></h3>
 
 <footer>&copy;Jussi Varonen 2026 <br>
     #409 JavaScript: Lämpötilamuunnin

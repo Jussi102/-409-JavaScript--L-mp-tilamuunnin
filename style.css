@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Caacupe+One&family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Knewave&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Luckiest+Guy&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oi&family=Outfit:wght@100..900&family=Rubik+Spray+Paint&display=swap');
 
 body {
-    font-family: "Montserrat", sans-serif;
+    font-family: "Inter", sans-serif;
     background-image: linear-gradient(to right, rgb(52, 194, 146), rgb(219, 36, 36));
     display: flex;
     margin: 0;
@@ -45,11 +45,11 @@ header a:hover {
 form {
     color: white;
     font-weight: bold;
-    padding: 20px;
-    display: flex;
+    padding: 15px;
     background-color: rgba(27, 17, 17, 0.24);
     border-radius: 10px;
     margin-top: 20px;
+    display:flex;
 }
 
 
@@ -64,15 +64,34 @@ form {
     margin-left: 20px;
     transition: 0.4s;
     font-size: 1.5em;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Inter", sans-serif;
+
 
 }
+#muutosLabel {
+    font-size: 1.2em;
+    margin-top: 10px;
+    text-decoration: underline;
+    font-weight: bolder;
+}
+#muutos {
+    margin-top: 10px;
+    width: 200px;
+    font-size: 1em;
+    color: white;
+    font-family: "Inter", sans-serif;
+    background-color: rgba(27, 17, 17, 0.24);
+    border-color: rgba(27, 17, 17, 0.24);
+    border-radius: 20px;
+    transition: 0.5s;
+}
+
 
 .muunna {
-    font-family: "Montserrat", sans-serif;
+    font-family: "Inter", sans-serif;
     background-color: rgba(27, 17, 17, 0.24);
     border-style: solid;
-    border-radius: 30px;
+    border-radius: 20px;
     padding: 20px;
     color:white;
     border-color: rgba(27, 17, 17, 0.24);
@@ -81,6 +100,7 @@ form {
     font-size: 1.15em;
     font-weight: bold;
     cursor: grab;
+
 }
 
 
@@ -106,6 +126,10 @@ form h3 {
     margin-top: 40px;
 }
 
+.vaihtoehdot {
+    margin: 10;
+    color:white;
+}
 
 
 footer {
@@ -115,5 +139,6 @@ footer {
     padding: 100px;
     background-color: rgba(27, 17, 17, 0.24);
     border-radius: 20px;
-    border-color: rgba(27, 17, 17, 0.24);;
+    border-color: rgba(27, 17, 17, 0.24);
+    font-family: "Inter", sans-serif;
 }
